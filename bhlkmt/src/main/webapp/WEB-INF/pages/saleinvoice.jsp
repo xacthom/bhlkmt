@@ -8,152 +8,143 @@
 	
 	<jsp:attribute name="content">
 		<div id="controls">
-    <!-- ================================================
-    ================= SIDEBAR Content ===================
-    ================================================= -->
+		    <!-- ================================================
+		    ================= SIDEBAR Content ===================
+		    ================================================= -->
 		    <aside id="sidebar">
 		        <div id="sidebar-wrap">
 		            <div class="panel-group slim-scroll" role="tablist">
 		                <div class="panel panel-default">
 		                    <div class="panel-heading" role="tab">
 		                        <h4 class="panel-title">
-		                            <a data-toggle="collapse" href="#sidebarNav">
+		                            <a data-toggle="collapse"
+										href="#sidebarNav">
 		                                <i class="fa fa-angle-up"></i>
 		                            </a>
 		                        </h4>
 		                    </div>
-		                    <div id="sidebarNav" class="panel-collapse collapse in" role="tabpanel">
+		                    <div id="sidebarNav"
+								class="panel-collapse collapse in" role="tabpanel">
 		                        <div class="panel-body">
-		                                    <!-- ===================================================
-		                ================= NAVIGATION Content ===================
-		                ==================================================== -->
-		                                    <ul id="navigation">
-		                                        <li class="active"><a href="/Home/Index"><i class="fa fa-dashboard"></i> <span>Trang Chủ</span></a></li>
-		                                        <li>
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Hệ Thống</span></a>
-		                                            <ul>
-		                                                <li>
-		                                                    <a href=""><i class="fa fa-caret-right"></i> Phân Quyền</a>
-		                                                </li>
-		                                                <li class="">
-		                                                    <a href="/Users/Create"><i class="fa fa-caret-right"></i> Sao Lưu/Phục Hồi Database </a>
-		                                                </li>
-		                                            </ul>
-		                                        </li>
-		                                        <li class="">
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Nhân Viên</span></a>
-		                                            <ul>
-		                                                <li class="">
-		                                                    <a href="/Employees/Index"><i class="fa fa-caret-right"></i> Danh Sách Nhân Viên</a>
-		                                                </li>
-		
-		                                            </ul>
-		                                        </li>
-		                                        <li class="">
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Bán Hàng</span></a>
-		                                            <ul>
-		                                                <li class="">
-		                                                    <a href="/SalesInvoice/Index"><i class="fa fa-caret-right"></i> Danh Sách Hóa Đơn</a>
-		                                                </li>
-		                                                <li class="">
-		                                                    <a href="/SalesInvoice/Create"><i class="fa fa-caret-right"></i> Lập Hóa Đơn </a>
-		                                                </li>
-		                                            </ul>
-		                                        </li>
-		                                        <li>
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Khách Hàng</span></a>
-		                                            <ul>
-		                                                <li>
-		                                                    <a href="/Customers/Index"><i class="fa fa-caret-right"></i> Danh Sách Khách Hàng</a>
-		                                                </li>
-		                                            </ul>
-		                                        </li>
-		                                        <li class="">
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Sản Phẩm</span></a>
-		                                            <ul>
-		                                                <li class="">
-		                                                    <a href="/Products/Index"><i class="fa fa-caret-right"></i> Danh Sách Sản Phẩm</a>
-		                                                </li>
-		
-		                                                <li class="">
-		                                                    <a href="/Manufactures/Index"><i class="fa fa-caret-right"></i> Nhà Sản Xuất </a>
-		                                                </li>
-		                                                <li class="">
-		                                                    <a href="/ComponentTypes/Index"><i class="fa fa-caret-right"></i> Loại Sản Phẩm </a>
-		                                                </li>
-		
-		                                            </ul>
-		                                        </li>
-		                                        <li class="">
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Nhà Cung Cấp</span></a>
-		                                            <ul>
-		                                                <li class="">
-		                                                    <a href="/Vendors/Index"><i class="fa fa-caret-right"></i> Danh Sách Nhà Cung Cấp</a>
-		                                                </li>
-		
-		
-		
-		                                            </ul>
-		                                        </li>
-		                                        <li>
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Tài Chính</span></a>
-		                                            <ul>
-		
-		                                                <li class="">
-		                                                    <a href=""><i class="fa fa-caret-right"></i> Thêm </a>
-		                                                </li>
-		                                            </ul>
-		                                        </li>
-		                                        <li class="">
-		                                            <a role="button" tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Khách Kho</span></a>
-		                                            <ul>
-		                                                <li class="">
-		                                                    <a href="/Warehouses/Index"><i class="fa fa-caret-right"></i> Danh sách kho </a>
-		                                                </li>
-		
-		                                            </ul>
-		                                        </li>
-		                                       
-		                                    </ul>
+                                    <!-- ===================================================
+                					================= NAVIGATION Content ===================
+               						==================================================== -->
+                                    <ul id="navigation">
+                                        <li class="">
+                                        	<a href="./"><i
+												class="fa fa-dashboard"></i><span>Trang Chủ</span></a>
+                                        </li>
+                                        <li class="">
+                                            <a role="button"
+											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Nhân Viên</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a
+													href="./employee"><i class="fa fa-caret-right"></i> Danh Sách Nhân Viên</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="active">
+                                            <a role="button"
+											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Bán Hàng</span></a>
+                                            <ul>
+                                                <li class="active">
+                                                    <a
+													href="./saleinvoice"><i class="fa fa-caret-right"></i> Danh Sách Hóa Đơn</a>
+                                                </li>
+                                                <li class="">
+                                                    <a
+													href="./createsaleinvoice"><i
+														class="fa fa-caret-right"></i> Lập Hóa Đơn </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a role="button"
+											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Khách Hàng</span></a>
+                                            <ul>
+                                                <li>
+                                                    <a
+													href="./customer"><i class="fa fa-caret-right"></i> Danh Sách Khách Hàng</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a role="button"
+											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Sản Phẩm</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a
+													href="./product"><i class="fa fa-caret-right"></i> Danh Sách Sản Phẩm</a>
+                                                </li>
+
+                                                <li class="">
+                                                    <a
+													href="./manufacture"><i class="fa fa-caret-right"></i> Nhà Sản Xuất </a>
+                                                </li>
+                                                <li class="">
+                                                    <a
+													href="./componentType"><i
+														class="fa fa-caret-right"></i> Loại Sản Phẩm </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a role="button"
+											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Nhà Cung Cấp</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a
+													href="./vendor"><i class="fa fa-caret-right"></i> Danh Sách Nhà Cung Cấp</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a role="button"
+											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Khách Kho</span></a>
+                                            <ul>
+                                                <li class="">
+                                                    <a
+													href="./warehouse"><i class="fa fa-caret-right"></i> Danh sách kho </a>
+                                                </li>
+                                                <li class="">
+                                                    <a
+													href="./warehousetransfer"><i class="fa fa-caret-right"></i> Lịch Sử Chuyển Kho </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
 		                            <!--/ NAVIGATION Content -->
-		                   
 		                        </div>
 		                    </div>
 		                </div>
-		
 		            </div>
 		        </div>
-		
 		    </aside>
 		    <!--/ SIDEBAR Content -->
 		</div>
-
-<!-- ================================================
-   ================= End Navivator ===================
-   ================================================= -->
-<!--/ CONTROLS Content -->
-<!-- ====================================================
-================= CONTENT ===============================
-===================================================== -->
-<section id="content">
-    <div class="page page-dashboard">
-        <div class="pageheader">
-            <h2><span></span></h2>
-            <div class="page-bar">
-                <ul class="page-breadcrumb">
-                    <li>
-                        <a href="/Home/Index"><i class="fa fa-home"></i> Trang Chủ</a>
-                    </li>
-                    <li>
-                        <a href="/Home/Index"></a>
-                    </li>
-                </ul>
-                <div class="page-toolbar">
-
-                </div>
-            </div>
-        </div>
-    </div>
+		<section id="content">
+		    <div class="page page-dashboard">
+		        <div class="pageheader">
+		            <h2>
+						<span></span>
+					</h2>
+		            <div class="page-bar">
+		                <ul class="page-breadcrumb">
+		                    <li>
+		                        <a href="./"><i
+									class="fa fa-home"></i> Trang Chủ</a>
+		                    </li>
+		                    <li>
+		                        <a href="./"></a>
+		                    </li>
+		                </ul>
+		                <div class="page-toolbar"></div>
+		            </div>
+		        </div>
+		    </div>
 
     <div class="page page-tables-datatables">
         <div>

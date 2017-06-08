@@ -27,6 +27,9 @@ public class SaleinvoiceController {
 	CustomerService cusService;
 	
 	@Autowired
+	EmployeeService empService;
+	
+	@Autowired
 	WarehouseService warehouseService;
 	
 	@Autowired
@@ -42,7 +45,9 @@ public class SaleinvoiceController {
 		List<Customer> cus_list = cusService.fetchAll();
 		List<Warehouse> ware_list = warehouseService.fetchAll();
 		List<Product> pro_list = productService.fetchAll();
+		List<Employee> emp_list = empService.fetchAll();
 		mv.addObject("cus_list", cus_list);
+		mv.addObject("emp_list", emp_list);
 		mv.addObject("ware_list", ware_list);
 		mv.addObject("pro_list", pro_list);
 		return mv;
@@ -55,7 +60,9 @@ public class SaleinvoiceController {
 		List<Customer> cus_list = cusService.fetchAll();
 		List<Warehouse> ware_list = warehouseService.fetchAll();
 		List<Product> pro_list = productService.fetchAll();
+		List<Employee> emp_list = empService.fetchAll();
 		mv.addObject("cus_list", cus_list);
+		mv.addObject("emp_list", emp_list);
 		mv.addObject("ware_list", ware_list);
 		mv.addObject("pro_list", pro_list);
 		return mv;

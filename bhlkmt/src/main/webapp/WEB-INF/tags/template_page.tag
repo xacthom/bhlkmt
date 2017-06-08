@@ -94,8 +94,8 @@
 
                     <!-- Branding -->
                     <div class="branding">
-                        <a class="brand" href="index.html">
-                            <span><strong>MIN</strong>OVATE</span>
+                        <a class="brand" href="./">
+                            <span><strong>BHLK</strong> Máy Tính</span>
                         </a>
                         <a role="button" tabindex="0" class="offcanvas-toggle visible-xs-inline"><i class="fa fa-bars"></i></a>
                     </div>

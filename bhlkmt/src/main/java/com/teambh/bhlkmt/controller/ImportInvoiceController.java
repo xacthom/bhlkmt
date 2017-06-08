@@ -31,6 +31,9 @@ public class ImportInvoiceController {
 	ImportInvoiceService importService;
 	
 	@Autowired
+	EmployeeService empService;
+	
+	@Autowired
 	ImportInvoiceDetailsService importdetailService;
 	
 	@RequestMapping("/importinvoice")
@@ -53,6 +56,8 @@ public class ImportInvoiceController {
 		List<Vendor> ven_list = venService.fetchAll();
 		List<Warehouse> ware_list = warehouseService.fetchAll();
 		List<Product> pro_list = productService.fetchAll();
+		List<Employee> emp_list = empService.fetchAll();
+		mv.addObject("emp_list", emp_list);
 		mv.addObject("ven_list", ven_list);
 		mv.addObject("ware_list", ware_list);
 		mv.addObject("pro_list", pro_list);

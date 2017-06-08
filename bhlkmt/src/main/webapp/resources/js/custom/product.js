@@ -161,7 +161,7 @@ function edit(id) {
 			$("#code1").val(data.productCode);
 			$("#name1").val(data.productName);
 			$("#price1").val(data.price);
-			$("#warrantyMonth1").val(data.warrantyMonth);
+			$("#warrentmonth1").val(data.warrantyMonth);
 			$("#fearture1").val(data.componentProduct.feature);
 			$("#selectComponentType1").val(data.componentProduct.componentType.componentTypeId);
 			$('#selectComponentType1').trigger('chosen:updated');

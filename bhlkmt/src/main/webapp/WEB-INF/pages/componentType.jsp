@@ -30,21 +30,9 @@
                 					================= NAVIGATION Content ===================
                						==================================================== -->
                                     <ul id="navigation">
-                                        <li class="active"><a
-											href="/Home/Index"><i class="fa fa-dashboard"></i> <span>Trang Chủ</span></a></li>
-                                        <li>
-                                            <a role="button"
-											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Hệ Thống</span></a>
-                                            <ul>
-                                                <li>
-                                                    <a href=""><i
-														class="fa fa-caret-right"></i> Phân Quyền</a>
-                                                </li>
-                                                <li class="">
-                                                    <a
-													href="/Users/Create"><i class="fa fa-caret-right"></i> Sao Lưu/Phục Hồi Database </a>
-                                                </li>
-                                            </ul>
+                                        <li class="">
+                                        	<a href="./"><i
+												class="fa fa-dashboard"></i><span>Trang Chủ</span></a>
                                         </li>
                                         <li class="">
                                             <a role="button"
@@ -52,7 +40,7 @@
                                             <ul>
                                                 <li class="">
                                                     <a
-													href="/Employees/Index"><i class="fa fa-caret-right"></i> Danh Sách Nhân Viên</a>
+													href="./employee"><i class="fa fa-caret-right"></i> Danh Sách Nhân Viên</a>
                                                 </li>
 
                                             </ul>
@@ -63,11 +51,11 @@
                                             <ul>
                                                 <li class="">
                                                     <a
-													href="/SalesInvoice/Index"><i class="fa fa-caret-right"></i> Danh Sách Hóa Đơn</a>
+													href="./saleinvoice"><i class="fa fa-caret-right"></i> Danh Sách Hóa Đơn</a>
                                                 </li>
                                                 <li class="">
                                                     <a
-													href="/SalesInvoice/Create"><i
+													href="./createsaleinvoice"><i
 														class="fa fa-caret-right"></i> Lập Hóa Đơn </a>
                                                 </li>
                                             </ul>
@@ -78,7 +66,7 @@
                                             <ul>
                                                 <li>
                                                     <a
-													href="/Customers/Index"><i class="fa fa-caret-right"></i> Danh Sách Khách Hàng</a>
+													href="./customer"><i class="fa fa-caret-right"></i> Danh Sách Khách Hàng</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -88,16 +76,16 @@
                                             <ul>
                                                 <li class="">
                                                     <a
-													href="/product"><i class="fa fa-caret-right"></i> Danh Sách Sản Phẩm</a>
+													href="./product"><i class="fa fa-caret-right"></i> Danh Sách Sản Phẩm</a>
                                                 </li>
 
                                                 <li class="">
                                                     <a
-													href="/manufacture"><i class="fa fa-caret-right"></i> Nhà Sản Xuất </a>
+													href="./manufacture"><i class="fa fa-caret-right"></i> Nhà Sản Xuất </a>
                                                 </li>
                                                 <li class="active">
-                                                    <a
-													href="/componentType"><i
+                                                    <a	
+													href="./componentType"><i
 														class="fa fa-caret-right"></i> Loại Sản Phẩm </a>
                                                 </li>
 
@@ -109,21 +97,7 @@
                                             <ul>
                                                 <li class="">
                                                     <a
-													href="/Vendors/Index"><i class="fa fa-caret-right"></i> Danh Sách Nhà Cung Cấp</a>
-                                                </li>
-
-
-
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a role="button"
-											tabindex="0"><i class="fa fa-list"></i> <span>Quản Lý Tài Chính</span></a>
-                                            <ul>
-
-                                                <li class="">
-                                                    <a href=""><i
-														class="fa fa-caret-right"></i> Thêm </a>
+													href="./vendor"><i class="fa fa-caret-right"></i> Danh Sách Nhà Cung Cấp</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -133,12 +107,14 @@
                                             <ul>
                                                 <li class="">
                                                     <a
-													href="/Warehouses/Index"><i class="fa fa-caret-right"></i> Danh sách kho </a>
+													href="./warehouse"><i class="fa fa-caret-right"></i> Danh sách kho </a>
                                                 </li>
-
+                                                <li class="">
+                                                    <a
+													href="./warehousetransfer"><i class="fa fa-caret-right"></i> Lịch Sử Chuyển Kho </a>
+                                                </li>
                                             </ul>
                                         </li>
-                                       
                                     </ul>
 		                            <!--/ NAVIGATION Content -->
 		                        </div>
@@ -153,21 +129,19 @@
 		    <div class="page page-dashboard">
 		        <div class="pageheader">
 		            <h2>
-								<span></span>
-							</h2>
+						<span></span>
+					</h2>
 		            <div class="page-bar">
 		                <ul class="page-breadcrumb">
 		                    <li>
-		                        <a href="/Home/Index"><i
+		                        <a href="./"><i
 									class="fa fa-home"></i> Trang Chủ</a>
 		                    </li>
 		                    <li>
-		                        <a href="/Home/Index"></a>
+		                        <a href="./"></a>
 		                    </li>
 		                </ul>
-		                <div class="page-toolbar">
-		                   
-		                </div>
+		                <div class="page-toolbar"></div>
 		            </div>
 		        </div>
 		    </div>
